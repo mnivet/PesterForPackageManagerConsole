@@ -1,0 +1,22 @@
+﻿<package>
+  <metadata>
+    <id>PesterForPackageManagerConsole</id>
+    <version>1.0.0</version>
+    <title>Pester For Package Manager Console</title>
+    <authors>Mickaël Nivet</authors>
+    <owners>Mickaël Nivet</owners>
+    <projectUrl>https://github.com/mnivet/PesterForPackageManagerConsole</projectUrl>
+    <iconUrl>http://pesterbdd.com/images/Pester.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Expose Pester to the Package Manager Console inside Visual Studio</description>
+    <releaseNotes xml:space="preserve">
+ * Initial Version
+    </releaseNotes>
+    <dependencies>
+        <dependency id="Pester" version="3.4.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
